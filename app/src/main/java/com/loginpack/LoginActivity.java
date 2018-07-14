@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -22,7 +23,7 @@ import com.welcome.Welcome;
 public class LoginActivity extends AppCompatActivity {
 
     //VIEWS AND WIDGET FIELDS
-    Button loginBtn;
+    CardView loginBtn;
     EditText userEmailEdit, userPasswordEdit;
 
     //String Fields
@@ -38,7 +39,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         //ASSIGN ID's
-        loginBtn = (Button) findViewById(R.id.loginBtn);
+        loginBtn = (CardView) findViewById(R.id.loginBtn);
         userEmailEdit = (EditText) findViewById(R.id.loginEmailEditText);
         userPasswordEdit = (EditText) findViewById(R.id.loginPassWordEditText);
 

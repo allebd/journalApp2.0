@@ -28,7 +28,7 @@ dependencies {
     testImplementation "junit:junit:$rootProject.ext.junitVersion"
     androidTestImplementation "com.android.support.test:runner:$rootProject.ext.runnerVersion"
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$rootProject.ext.espressoVersion"
-    implementation "com.android.support:cardview-v7:$rootProject.ext.appCompatVersion"
+    implementation "com.android.support:cardview-v7:$rootProject.ext.cardViewVersion"
 }
 
 apply plugin: 'com.google.gms.google-services'

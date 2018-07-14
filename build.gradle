@@ -35,6 +35,7 @@ ext {
 
     constraintVersion = '1.1.2'
     appCompatVersion = '28.0.0-alpha1'
+    cardViewVersion = '28.0.0-alpha1'
     junitVersion = '4.12'
     espressoVersion = '3.0.2'
     runnerVersion = '1.0.2'
