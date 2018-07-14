@@ -18,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.loginpack.LoginActivity" />
-        <activity android:name="com.welcome.Welcome"></activity>
+        <activity android:name="com.welcome.Welcome" />
+        <activity android:name=".Profile"></activity>
     </application>
 
 </manifest>
